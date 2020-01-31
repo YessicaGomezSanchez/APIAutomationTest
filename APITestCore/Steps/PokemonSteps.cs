@@ -3,8 +3,9 @@ using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 using System;
 using TechTalk.SpecFlow;
+using APITestCore.Models;
 
-namespace APIUnitTest.Steps
+namespace APITestCore.Steps
 {
     [Binding]
     public class PokemonSteps
@@ -39,8 +40,6 @@ namespace APIUnitTest.Steps
                 
 
             }
-
         }
-
     }
 }
